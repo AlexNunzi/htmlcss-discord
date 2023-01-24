@@ -20,7 +20,7 @@ body{
 }
 
 .debug .debugborder{
-    border: 2px dashed #000000;
+    /* border: 2px dashed #000000; */
 }
 
 .debug .head-bottom{
@@ -51,7 +51,7 @@ body{
 }
 
 footer{
-    height: 450px;
+    /* height: 450px; */
     /* background-color: #23272A; */
 }
 
@@ -61,23 +61,23 @@ footer{
 
 .footer-content div{
     /* height: 300px; */
-    border: 2px dashed #FFFFFF;
+    /* border: 2px dashed #FFFFFF; */
 }
 
 .footer-content div:first-child{
     /* background-color: #F08080; */
-    border: 2px dashed #000000;
+    /* border: 2px dashed #000000; */
 }
 
 
 .footer-bottom{
-    background-color: #7FFFD4;
+    /* background-color: #7FFFD4; */
 }
 
 .footer-items{
-    background-color: #FFB6C1;
-    padding:4px;
-    text-align: center;
+    /* background-color: #FFB6C1; */
+    /* padding:4px; */
+    /* text-align: center; */
 }
 
 /* ------------------- REGOLE CSS ------------------- */
@@ -307,7 +307,7 @@ main .section-text{
 footer{
     background-color: #23272A;
     font-family: sans-serif;
-    padding-top: 6px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -321,18 +321,21 @@ footer h3{
     font-size: 24px;
 }
 
+footer h4{
+    font-size: 14px;
+}
+
 .footer-content{
     display: flex;
     margin-bottom: 8px;
-    border-bottom: 2px solid ;
 }
+
 
 .lang-container{
     height: 18px;
     display: block;
     display: flex;
     align-items: center;
-    /* margin-top: 16px; */
 }
 
 .lang-container img{
@@ -356,7 +359,7 @@ footer li{
 }
 
 footer ul a{
-    font-size: 14px;
+    font-size: 12px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -371,6 +374,10 @@ footer i{
 
 .footer-content div:first-child{
     width: calc(100% /3);
+}
+
+footer hr{
+    border: 1px solid #4A5782;
 }
 
 .footer-bottom{
