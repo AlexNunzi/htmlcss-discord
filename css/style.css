@@ -52,20 +52,20 @@ body{
 
 footer{
     height: 450px;
-    background-color: #23272A;
+    /* background-color: #23272A; */
 }
 
 .footer-content{
-    background-color: #20B2AA;
+    /* background-color: #20B2AA; */
 }
 
 .footer-content div{
-    height: 300px;
+    /* height: 300px; */
     border: 2px dashed #FFFFFF;
 }
 
 .footer-content div:first-child{
-    background-color: #F08080;
+    /* background-color: #F08080; */
     border: 2px dashed #000000;
 }
 
@@ -136,9 +136,14 @@ a.button-shape{
     color: #FFFFFF;
 }
 
-.button-download::before{
-    content: '\2193';
+
+i{
+    margin-right: 8px;
 }
+/* .button-download::before{
+    content: '\2193';
+    margin-right: 8px;
+} */
 
 .head-top{
     background-color: #255EE9;
@@ -181,7 +186,7 @@ a.button-shape{
     margin: 0px 3px;
 }
 
-li a:link{
+header li a:link{
     color:#FFFFFF;
     font-size: 12px;
     font-weight: 500;
@@ -287,7 +292,7 @@ main .section-text{
     background-repeat: no-repeat;
     background-position: top;
     display: inline-block;
-    padding: 30px;
+    padding: 30px 40px;
 }
 
 .main-bottom p{
@@ -300,16 +305,64 @@ main .section-text{
 /* FOOTER */
 
 footer{
+    background-color: #23272A;
+    font-family: sans-serif;
     padding-top: 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+footer h3, h4{
+    color: #7289DA;
+}
+
+footer h3{
+    font-size: 24px;
+}
+
 .footer-content{
     display: flex;
     margin-bottom: 8px;
     border-bottom: 2px solid ;
+}
+
+.lang-container{
+    height: 18px;
+    display: block;
+    display: flex;
+    align-items: center;
+    /* margin-top: 16px; */
+}
+
+.lang-container img{
+    height: 100%;
+    margin-right: 6px;
+}
+
+#lang-select{
+    border: none;
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+footer ul a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer i{
+    margin-right: 20px;
 }
 
 .footer-content div{
