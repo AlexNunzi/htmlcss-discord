@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE DI DEBUG */
+
+.debug .head-top{
+    background-color: #ADD8E6;
+}
+
+.debug .nav-container{
+    background-color: #DAA520;
+}
+
+.debug .debugborder{
+    border: 2px dashed #000000;
+}
+
+.debug .head-bottom{
+    background-color: #00008B;
+    /* height: 400px; */
+}
+
+.debug .head-content{
+    background-color: red;
+}
+
+.debug .head-bottom-text{
+    height: 100%;
+    width: 50%;
+}
+
+.debug .hb-text{
+    background-color: #FFC0CB;
+    height: 80%;
+}
+
+.debug .hb-buttons-container{
+    background-color: #20B2AA;
+    height: 20%;
+}
+
+.hb-button{
+    background-color: blueviolet;
+    height: 100%;
+    width: 50%;
+}
+
+.hb-buttons-text{
+    background-color: #FFC0CB;
+    width: 50%;
+}
+
+.head-bottom-img{
+    height: 100%;
+    width: 50%;
+    background-color: #1E90FF;
+}
+
+.debug main{
+    height: 1000px;
+}
+
+.debug section{
+    /* min-height: 400px; */
+
+}
+
+.debug section{
+    background-color: #23272A;
+}
+
+.debug .section-heading{
+    background-color: purple;
+    height: 60px;
+    width: 30%;
+}
+
+.debug .section-button{
+    background-color: #00008B;
+    height: 60px;
+    width: 50%;
+}
+
+.debug .section-img{
+    background-color: #1E90FF;
+    height: 180px;
+    width: 100%;
+}
+
+.debug .no-bottom-padding .section-img{
+    height: ;
+}
+
+.debug .section-text{
+    background-color: #FFC0CB;
+}
+
+/* section > div{
+    height: 300px;
+} */
+
+.main-bottom{
+    height: 700px;
+    background-color: #228B22;
+}
+
+footer{
+    height: 450px;
+    background-color: #23272A;
+}
+
+.footer-content{
+    background-color: #20B2AA;
+}
+
+.footer-content div{
+    height: 300px;
+    border: 2px dashed #FFFFFF;
+}
+
+.footer-content div:first-child{
+    background-color: #F08080;
+    border: 2px dashed #000000;
+}
+
+
+.footer-bottom{
+    background-color: #7FFFD4;
+}
+
+.footer-items{
+    background-color: #FFB6C1;
+    padding:4px;
+    text-align: center;
+}
+
+/* REGOLE CSS */
+
+/* HEADER */
+
+.center-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.head-top{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container{
+    height: 32px;
+    display: flex;
+}
+
+.col-lateral{
+    height: 100%;
+    width: 20%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.col-mid{
+    height: 100%;
+    width: 80%;
+}
+
+.col-right{
+    flex-direction: row-reverse;
+}
+
+.head-top ul{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-top li{
+    margin: 0px 3px;
+}
+
+li a:link{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.head-bottom{
+    padding: 30px;
+}
+
+.head-bottom-text{
+    width: 50%;
+}
+
+.hb-buttons-container{
+    display: flex;
+    align-items: center;
+}
+
+.hb-buttons-text{
+    text-align: center;
+}
+
+.head-bottom-img{
+    width: 50%;
+}
+
+.head-content{
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* MAIN */
+
+main{
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+    align-items: center;
+}
+
+main section{
+    padding: 25px;
+    height: calc(100% / 3);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section.section-small{
+    align-items: flex-start;
+}
+
+.no-bottom-padding{
+    padding-bottom: 0px;
+}
+
+.section-heading{
+    margin: calc(12px - (12.5px / 2) ) 0px;  /*12.5 = half padding section*/
+}
+
+.section-button{
+    margin: calc(12px - (12.5px / 2) ) 0px;  /*12.5 = half padding secion*/
+}
+
+.no-bottom-padding .section-heading{
+    margin: 12px 0px;
+}
+
+.no-bottom-padding .section-button{
+    margin: 12px 0px;
+}
+
+
+.section-img{
+    flex-shrink: 0;
+}
+
+main .section-small{
+    height: 20%;
+}
+
+.section-small .section-text{
+    text-align: left;
+}
+
+
+
+
+/* main section{
+    padding: 30px 0px;
+}
+
+.main-content{
+    display:flex;
+}
+
+main .section-img{
+    height: 100%;
+    width: 60%;  
+}
+
+main .section-text{
+    height: 100%;
+    width: 40%;
+}
+
+.grey{
+    background-color: #D3D3D3;
+} */
+
+
+/* FOOTER */
+
+footer{
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content{
+    display: flex;
+    margin-bottom: 8px;
+    border-bottom: 2px solid ;
+}
+
+.footer-content div{
+    width: calc(100% /5);
+}
+
+.footer-content div:first-child{
+    width: calc(100% /4);
+}
+
+.footer-bottom{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
