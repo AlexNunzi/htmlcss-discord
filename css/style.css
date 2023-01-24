@@ -12,11 +12,11 @@ body{
 /* REGOLE DI DEBUG */
 
 .debug .head-top{
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
 }
 
 .debug .nav-container{
-    background-color: #DAA520;
+    /* background-color: #DAA520; */
 }
 
 .debug .debugborder{
@@ -24,12 +24,12 @@ body{
 }
 
 .debug .head-bottom{
-    background-color: #00008B;
+    /* background-color: #00008B; */
     /* height: 400px; */
 }
 
 .debug .head-content{
-    background-color: #EE82EE;
+    /* background-color: #EE82EE; */
 }
 
 .debug section{
@@ -84,7 +84,7 @@ footer{
     text-align: center;
 }
 
-/* REGOLE CSS */
+/* ------------------- REGOLE CSS ------------------- */
 
 /* HEADER */
 
@@ -93,7 +93,50 @@ footer{
     margin: 0 auto;
 }
 
+header{
+    font-family: sans-serif;
+}
+
+.button-shape{
+    border-radius: 50vh;
+    border: none;
+}
+
+.head-content .button-shape {
+    margin: 0px 8px;
+}
+
+a.button-shape{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-small{
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0px 16px;
+}
+
+.button-medium{
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    padding: 0px 18px;
+}
+
+.button-white{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.button-black{
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
 .head-top{
+    background-color: #255EE9;
     height: 80px;
     display: flex;
     align-items: center;
@@ -107,7 +150,7 @@ footer{
 .col-lateral{
     height: 100%;
     width: 20%;
-    padding: 8px;
+    /* padding: 8px; */
     display: flex;
     align-items: center;
 }
@@ -134,20 +177,43 @@ footer{
 }
 
 li a:link{
+    color:#FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+
     text-decoration: none;
     padding: 5px;
 }
 
 .head-bottom{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 30px;
-    border-bottom: 4px solid #ADD8E6;
 }
 
 .head-content{
+    text-align: center;
     width: 60%;
     height: 300px;
     margin: 0 auto;
+    padding-top: 50px;
 }
+
+.head-content h1{
+    color: #FFFFFF;
+    margin: 20px 0px;
+}
+
+.head-content p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 20px 8px;
+    line-height: 30px;
+}
+
+
 
 /* MAIN */
 
