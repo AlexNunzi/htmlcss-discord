@@ -365,7 +365,13 @@ footer ul a{
 }
 
 footer i{
-    margin-right: 20px;
+    font-size: 14px;
+}
+
+.icon{
+    display: inline-block;
+    padding: 4px;
+    margin-right: 8px;
 }
 
 .footer-content div{
