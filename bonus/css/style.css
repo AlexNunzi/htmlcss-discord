@@ -132,7 +132,7 @@ a.button-shape{
 }
 
 .button-cyan{
-    background-color: #7289DA;
+    background-color: #5865F2;
     color: #FFFFFF;
 }
 
@@ -186,7 +186,7 @@ i{
     margin: 0px 3px;
 }
 
-header li a:link{
+header li a{
     color:#FFFFFF;
     font-size: 12px;
     font-weight: 500;
@@ -405,6 +405,30 @@ footer hr{
     height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
 }
+
+
+/* TRANSIZIONI E ANIMAZIONI --------------------- */
+
+a.button-shape:hover{
+    box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.3);
+    transition-duration: .3s;
+}
+
+a.button-black:hover{
+    background-color: #36393F;
+}
+
+a.button-cyan:hover{
+    background-color: #7983F5;
+}
+
+
+a.button-white:hover{
+    color: #5865F2;
+}
+
+li a:hover{
+    text-decoration: underline;
+} 
